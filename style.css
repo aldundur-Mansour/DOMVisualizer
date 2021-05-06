@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+ background-color:black;
+  display:  flex ; 
+  align-items: center ; 
+  align-content: center;
+  flex-direction: column;
+}
+
+#myCanvas {
+   
+    position:absolute; /* or absolute (or not..) depending on your goal */
+    left:0;
+    top:0;
+}
